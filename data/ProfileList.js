@@ -1,3 +1,9 @@
+import JasonIsaac from "../public/images/jason-isaac.png";
+import JohanHariara from "../public/images/johan-hariara.png";
+import VietoAlvaro from "../public/images/vieto-alvaro.png";
+import GalihCarak from "../public/images/galih-carak.png";
+import Yoke from "../public/images/yoke.png";
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
   {
@@ -13,7 +19,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     rating: 5,
-    image: "@public/images/jason-isaac.png",
+    image: JasonIsaac,
   },
   {
     name: "Johan Hariara",
@@ -28,7 +34,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     rating: 4,
-    image: "@public/images/johan-hariara.png",
+    image: JohanHariara,
   },
   {
     name: "Vieto Alvaro",
@@ -43,7 +49,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     rating: 3,
-    image: "@public/images/vieto-alvaro.png",
+    image: VietoAlvaro,
   },
   {
     name: "Galih A Carak",
@@ -58,7 +64,7 @@ export default [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     rating: 2,
-    image: "@public/images/galih-carak.png",
+    image: GalihCarak,
   },
   {
     name: "Yoke",
@@ -73,6 +79,6 @@ export default [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     rating: 2,
-    image: "@public/images/yoke.png",
+    image: Yoke,
   },
 ];

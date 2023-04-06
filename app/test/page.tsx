@@ -5,7 +5,7 @@ export default function TestPage(): JSX.Element {
   return (
     <div>
       {ProfileList.map((item, idx) => (
-        <Profile key={idx} {...item} />
+        <Profile key={idx} idx={idx} {...item} />
       ))}
     </div>
   );
