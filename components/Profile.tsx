@@ -43,7 +43,7 @@ export default function Profile({
     <div
       className={clsx(
         backgroundColor[idx],
-        "w-full rounded-[40px] -mt-[126px] first:mt-0 mb-10 flex pt-[77px] px-[72px] pb-[196px]"
+        "w-full rounded-[40px] -mt-[126px] first:mt-0 flex pt-[77px] px-[72px] pb-[196px]"
       )}
     >
       <div className="bg-[#D9D9D9] rounded-full overflow-hidden mr-[55px] self-start flex-none">
@@ -51,10 +51,10 @@ export default function Profile({
       </div>
       <div>
         <div className="flex">
-          <h3 className="text-[#1D1D1B] capitalize font-bold text-[44px]">
+          <h3 className="text-[#1D1D1B] capitalize font-bold text-[44px] w-[350px]">
             {name}
           </h3>
-          <div className="ml-[52px] flex items-center gap-1">
+          <div className="flex items-center gap-1">
             {new Array(rating).fill(0).map((_, idx) => (
               <div key={idx} className="flex-none">
                 <Image alt="rating" width={35} height={35} src={StarYellow} />
