@@ -1,6 +1,6 @@
 import ProfileList from "@/data/ProfileList.js";
-import StarBlack from "../../../public/images/star-black.png";
-import StarWhite from "../../../public/images/star-white.png";
+import StarBlack from "@/public/images/star-black.png";
+import StarWhite from "@/public/images/star-white.png";
 import Image from "next/image";
 
 interface PageProps {
