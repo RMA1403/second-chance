@@ -1,7 +1,7 @@
 import Profile from "@/components/Profile";
 import ProfileList from "@/data/ProfileList.js";
 
-export default function ProfilePage(): JSX.Element {
+export default function TestPage(): JSX.Element {
   return (
     <main className="relative">
       <div className="bg-[#292526] h-[170px] rounded-b-[40px]"></div>
