@@ -1,16 +1,16 @@
 import Image from "next/image";
-import kribo from "../../public/images/kribo1.png";
-import bajuOren from "../../public/images/baju-oren-1.png";
-import bertiga from "../../public/images/tiga-orang.png";
-import secondChance from "../../public/images/second-chance.png";
-import email from "../../public/images/email.png";
-import instagram from "../../public/images/instagram.png";
-import linkedin from "../../public/images/linkedin.png";
+import kribo from "@/public/images/kribo1.png";
+import bajuOren from "@/public/images/baju-oren-1.png";
+import bertiga from "@/public/images/tiga-orang.png";
+import secondChance from "@/public/images/second-chance.png";
+import email from "@/public/images/email.png";
+import instagram from "@/public/images/instagram.png";
+import linkedin from "@/public/images/linkedin.png";
 
 export default function SignupPage(): JSX.Element {
   return (
-    <div className="pt-[170px] bg-[#F6F6F6]">
-      <div className="bg-[#F6F6F6] h-[886px] items-center flex flex-col rounded-b-[44px] relative overflow-hidden z-50">
+    <div className="pt-[90px] bg-[#F6F6F6]">
+      <div className="bg-[#F6F6F6] h-[886px] items-center flex flex-col rounded-b-[44px] relative overflow-hidden z-40">
         <h1 className="font-bold text-[40px] text-center mt-[131.5px] mb-[37px]">
           SignUp
         </h1>

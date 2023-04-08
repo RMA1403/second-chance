@@ -1,12 +1,13 @@
 import Image from "next/image";
-import img from "../public/images/ceklis.png";
-import orang from "../public/images/orang-orang.png";
-import beneficial from "../public/images/beneficial.png";
-import cooperate from "../public/images/cooperate.png";
-import depete from "../public/images/depete.png";
-import kribo from "../public/images/kribo.png";
-import bajuOren from "../public/images/baju-oren.png";
-import kerudung from "../public/images/kerudung.png";
+import img from "@/public/images/ceklis.png";
+import orang from "@/public/images/orang-orang.png";
+import beneficial from "@/public/images/beneficial.png";
+import cooperate from "@/public/images/cooperate.png";
+import depete from "@/public/images/depete.png";
+import kribo from "@/public/images/kribo.png";
+import bajuOren from "@/public/images/baju-oren.png";
+import kerudung from "@/public/images/kerudung.png";
+import Link from "next/link";
 
 export default function LandingPage(): JSX.Element {
   return (
@@ -27,11 +28,13 @@ export default function LandingPage(): JSX.Element {
             One flat monthly rate
           </h2>
         </div>
-        <div className="bg-gradient-to-r from-[#F86642] to-[#F86642] h-[46px] items-center flex justify-center w-[18vw] rounded-[15px] mt-[25px] z-10">
-          <h2 className="text-[#FFFFFF] font-bold text-[17px]">
-            START YOUR RISK FREE TRIAL
-          </h2>
-        </div>
+        <button className="bg-gradient-to-r from-[#F86642] to-[#F86642] h-[46px] items-center flex justify-center w-[18vw] rounded-[15px] mt-[25px] z-10 hover:from-orange-600 hover:to-orange-600">
+          <Link href="/signup">
+            <h2 className="text-[#FFFFFF] font-bold text-[17px]">
+              START YOUR RISK FREE TRIAL
+            </h2>
+          </Link>
+        </button>
         <div className="mt-[-10px] -z-5">
           <Image width="770" alt="" height="433.49" src={orang} />
         </div>
@@ -39,7 +42,10 @@ export default function LandingPage(): JSX.Element {
 
       <div className="bg-[#292526] h-[354px] rounded-t-[40px] mt-[-34px]"></div>
 
-      <div className="bg-[#F6F6F6] pb-[43px] rounded-t-[40px] mt-[-39px] items-center flex flex-col">
+      <div
+        id="how-it-works"
+        className="bg-[#F6F6F6] pb-[43px] rounded-t-[40px] mt-[-39px] items-center flex flex-col"
+      >
         <h2 className="mt-[225px] font-bold text-[40px] w-[56vw] text-center">
           A Diverse Team Of <span className="text-[#FF734F]">Passionate</span>{" "}
           Workers Who Are Here To Help You{" "}
