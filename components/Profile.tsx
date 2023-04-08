@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import StarYellow from "../public/images/star-yellow.png";
 import StarWhite from "../public/images/star-white.png";
 import clsx from "clsx";
+import Link from "next/link";
 
 interface ComponentProps {
   idx: number;
@@ -40,7 +41,8 @@ export default function Profile({
   ];
 
   return (
-    <div
+    <Link
+      href={`/profile-info/${idx}`}
       className={clsx(
         backgroundColor[idx],
         "w-full rounded-[40px] -mt-[126px] first:mt-0 flex pt-[77px] px-[72px] pb-[196px]"
@@ -86,6 +88,6 @@ export default function Profile({
           {description}
         </p>
       </div>
-    </div>
+    </Link>
   );
 }
