@@ -9,7 +9,7 @@ import linkedin from "../../public/images/linkedin.png";
 
 export default function SignupPage(): JSX.Element {
   return (
-    <div>
+    <div className="pt-[170px] bg-[#F6F6F6]">
       <div className="bg-[#F6F6F6] h-[886px] items-center flex flex-col rounded-b-[44px] relative overflow-hidden z-50">
         <h1 className="font-bold text-[40px] text-center mt-[131.5px] mb-[37px]">
           SignUp
