@@ -28,7 +28,7 @@ export default function LandingPage(): JSX.Element {
             One flat monthly rate
           </h2>
         </div>
-        <button className="bg-gradient-to-r from-[#F86642] to-[#F86642] h-[46px] items-center flex justify-center w-[18vw] rounded-[15px] mt-[25px] z-10 hover:from-orange-600 hover:to-orange-600">
+        <button className="bg-gradient-to-r from-[#F86642] to-[#F86642] h-[46px] items-center flex justify-center px-4 rounded-[15px] mt-[25px] z-10 hover:from-orange-600 hover:to-orange-600">
           <Link href="/signup">
             <h2 className="text-[#FFFFFF] font-bold text-[17px]">
               START YOUR RISK FREE TRIAL
